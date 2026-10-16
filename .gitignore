@@ -1,0 +1,18 @@
+# Python
+__pycache__/
+*.pyc
+.venv/
+
+# Local config and secrets
+.env
+.env.*
+!.env.example
+*.pem
+*.key
+
+# Runtime data
+.adk/
+workspace/
+
+# OS
+.DS_Store
